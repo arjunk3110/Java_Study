@@ -1,15 +1,15 @@
 package Variables;
 
-public class Ivariable
+public class InstanceVar
 {
 	
-	int InstanceVariable=10;
+	int InstanceVariable=100;
 	
 
 	public static void main(String[] args)
 	{
 		
-		Ivariable obj= new Ivariable();
+		InstanceVar obj= new InstanceVar();
 		System.out.println(obj.InstanceVariable);
 		
 	}
