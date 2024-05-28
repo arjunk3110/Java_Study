@@ -12,7 +12,5 @@ public class MethodOverLoading
 	{
 		System.out.println(a+b);
 	}
-	
-	
 
 }
