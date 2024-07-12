@@ -1,23 +1,30 @@
 package oops_Abstraction;
 
-public class InterfaceMain implements shape
+public class InterfaceMain
 
 {
 	
 	public static void main(String[] args)
 	{
-		InterfaceMain obj= new InterfaceMain();
-		obj.circle();
-		obj.square();
-		shape.triangle();
 	
+		Whatsapp AudioObj = new Audiocall();
+		Whatsapp VideoObj = new VideoCall();
 		
+		AudioObj.disconnect();
+		AudioObj.mute();
+		AudioObj.call();
+		
+		VideoObj.disconnect();
+		VideoObj.call();
+		VideoObj.mute();
+		
+		
+
+		
+       
+        
+    
 	}
 	
-	public void circle()
-	{
-		System.out.println("This is Abstract  method-CIRCLE");
-		
-	}	
-	
+
 }

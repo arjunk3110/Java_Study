@@ -8,6 +8,7 @@ class A
 	}
 
 }
+
 class B extends A
 
 {
@@ -26,8 +27,8 @@ public class MethodOverRiding
 public static void main(String[] args)
 	
 	{
-		MethodOverRiding obj = new MethodOverRiding();
-
+		A obj = new A();
+		obj.show();
 	}
 
 }
